@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Hugging Face login
-login(token="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")
+login(token="")
 
 # Load GigaPath feature extractor
 model_name = "hf_hub:prov-gigapath/prov-gigapath"
